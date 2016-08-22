@@ -1,0 +1,55 @@
+body{
+	background-color: #B3D2EE;
+	text-align: center;
+}
+
+input{
+	background-color: #FEFF7A;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+div.head{
+	text-transform: uppercase;
+	font-family: COMIC SANS MS;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+table {
+    width: 100%;
+	border: 1px solid black;
+}
+
+th, td {
+    height: 50px;
+	border: 1px solid black;
+	text-align: center;
+}
+
+a.nav:link, a:visited {
+    display: block;
+    width: 48.65vw;
+    font-weight: bold;
+	font-size: 20px;
+    color: black;
+    background-color: #716FD4;
+	border: 1px solid black;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a.nav:hover, a:active {
+    background-color: #6B7DF5;
+}
